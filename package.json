@@ -12,10 +12,12 @@
     "underscore": "~1.5.1",
     "validator": "~1.4.0",
     "async": "~0.2.9",
-    "pluralize": "0.0.5"
+    "pluralize": "0.0.5",
+    "any-db-transaction": "~2.1.2"
   },
   "peerDependencies": {
-    "any-db": "~2.1.0"
+    "any-db": "~2.1.0",
+    "any-db-transaction": "~2.1.2"
   },
   "devDependencies": {
     "nodemon": "~0.7.8",
@@ -30,5 +32,11 @@
   "engines": {
     "node": ""
   },
-  "keywords": ["mysql", "postgres", "database", "SQL", "ORM"]
+  "keywords": [
+    "mysql",
+    "postgres",
+    "database",
+    "SQL",
+    "ORM"
+  ]
 }
